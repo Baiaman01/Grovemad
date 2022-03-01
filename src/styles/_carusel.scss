@@ -1,0 +1,88 @@
+.carusel {
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__subtitle {
+        padding: 16px 0 83px;
+        width: 789px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+    }
+
+    .slick-slider {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .slick-dots {
+            position: absolute;
+            top: -44px;
+            bottom: unset;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            li {
+                width: 30px;
+                height: 30px;
+                button {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                
+                    &::before {
+                        content: '';
+                        width: 8px;
+                        height: 8px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background-color: #000000;
+                    }
+                }
+            }
+        }
+        &__card {
+            text-align: center;
+            img {
+                margin: 0 auto;
+            }
+            h3 {
+                padding-top: 23px;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 21px;
+                letter-spacing: 0.7px;
+                color: #A0A0A0;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 12px;
+                line-height: 21px;
+                letter-spacing: 0.7px;
+                color: #A0A0A0;
+            }
+        }
+
+    }
+}

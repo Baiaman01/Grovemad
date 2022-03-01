@@ -1,0 +1,44 @@
+.teams {
+    margin-bottom: 124px;
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__subtitle {
+        padding: 23px 0 79px;
+        width: 789px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+
+        &__img {
+            display: flex;
+            column-gap: 24px;
+            img {
+                width: calc((100% / 6) - 20px);
+            }
+        }
+    }
+}

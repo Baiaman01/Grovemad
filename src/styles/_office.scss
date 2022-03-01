@@ -1,0 +1,47 @@
+.office {
+    margin: 95px 0 116px;
+    padding: 100px 0;
+    position: relative;
+    background: url(../image/office/Rectangle.svg) center / cover no-repeat fixed;
+
+
+    .nft {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.8px;
+            color: #FFFFFF;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 66px;
+            line-height: 70px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        p {
+            padding: 14px 0 30px;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.8px;
+            color: #FFFFFF;
+        }
+    }
+
+}

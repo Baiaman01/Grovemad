@@ -1,0 +1,527 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .slick-slider__card {
+        width: calc((100% / 4) - 20px);
+
+        img {
+            width: 100%;
+        }
+    }
+    .home__content {
+        top: 50%;
+    }
+
+    .home__img img {
+        height: auto;
+
+    }
+
+    .home__img {
+        height: auto;
+        position: relative;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .home__content {
+        top: 50%;
+    }
+
+    .home__img img {
+        height: auto;
+
+    }
+
+    .home__img {
+        height: auto;
+        position: relative;
+    }
+
+    .slick-slider__card {
+        width: calc((100% / 4) - 20px);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .carusel__subtitle {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .slick-slider__card {
+        width: calc((100% / 4) - 20px);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .footer .conclusion {
+        column-gap: 8px;
+        padding: 40px 0 0;
+        font-size: 10px;
+    }
+
+    .teams__subtitle {
+        width: 100%;
+    }
+
+    .work__subtitle {
+        width: 100%;
+    }
+
+    .office .nft h1 {
+        font-size: 50px;
+    }
+
+    .office .nft p {
+        font-size: 13px;
+    }
+
+    .home__content h1 {
+        font-size: 35px;
+    }
+
+    .header .btn {
+        font-size: 10px;
+    }
+
+    .header__link {
+        font-size: 10px;
+    }
+
+    .header__logo {
+        img {
+            width: 200px;
+            padding-left: 60px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    &.active {
+        .burger-line {
+            background-color: transparent;
+
+            &::before {
+                transform: rotate(45deg);
+                top: 0;
+            }
+
+            &::after {
+                transform: rotate(135deg);
+                top: 0;
+            }
+        }
+    }
+
+    .home__content {
+        top: 50%;
+    }
+
+    .home__img img {
+        height: auto;
+
+    }
+
+    .home__img {
+        height: auto;
+        position: relative;
+    }
+
+    .container {
+        max-width: 335px;
+    }
+
+    .header {
+        position: relative;
+        flex-direction: row;
+
+        .burger {
+            display: block;
+        }
+
+        .header__logo {
+            order: -1;
+
+            & img {
+                padding-left: 0;
+                padding-top: 50px;
+            }
+
+        }
+
+        .btn {
+            padding-top: 140px;
+        }
+
+        .header__item {
+            padding-top: 50px;
+        }
+
+        &__row {
+            z-index: 10;
+            display: flex;
+            justify-content: normal;
+            flex-direction: column;
+            background-color: beige;
+            height: 300px;
+            width: 70%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            visibility: hidden;
+            transition: 1s ease;
+            opacity: 0;
+
+            &.active {
+                position: fixed;
+                right: -1%;
+                transform: translateX(-4px);
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+
+        .header__menu {
+            padding-top: 40px;
+            flex-direction: column;
+
+        }
+
+        &__cart {
+            padding-right: 0;
+        }
+
+        &__menu {
+            justify-content: normal;
+            padding: 0;
+            column-gap: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+
+
+
+    .footer__text p {
+        width: 100%;
+    }
+
+    .footer__text h2 {
+        padding-top: 20px
+    }
+
+    .footer__info ul {
+        padding-top: 20px
+    }
+
+    .hope__row .fon p {
+        font-size: 9px;
+    }
+
+    .footer .conclusion {
+        font-size: 7px;
+    }
+
+    .footer__info li {
+        font-size: 15px;
+    }
+
+    .hope__row .fon h1 {
+        font-size: 24px;
+    }
+
+    .hope__row_title {
+        font-size: 24px;
+    }
+
+    .hope__row_text {
+        font-size: 10px;
+        padding: 40px 0 60px;
+    }
+
+    .work__title {
+        font-size: 24px;
+    }
+
+    .teams__title {
+        font-size: 24px;
+    }
+
+    .footer__text::before {
+        top: 200px;
+        width: 80%;
+    }
+
+    .footer__text p {
+        font-size: 12px;
+    }
+
+    .office .nft h1 {
+        font-size: 30px;
+    }
+
+    .teams__subtitle {
+        font-size: 12px;
+    }
+
+    .work__subtitle {
+        font-size: 12px;
+    }
+
+    .teams {
+        margin-bottom: 100px;
+    }
+
+    .types .types__comp .laptop h2 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .types .types__comp .desk h2 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .types .types__comp .desk p {
+        font-size: 10px;
+    }
+
+    .types .types__comp .laptop p {
+        font-size: 10px;
+    }
+
+    .types {
+        padding-bottom: 90px;
+    }
+
+    .types .type__desc {
+        padding-bottom: 40px;
+    }
+
+    .slick-slider__card {
+        width: calc((100% / 4) - 20px);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .home__content h1 {
+        font-size: 26px;
+    }
+
+    .custom-modal .close-btn {
+        font-size: 10px;
+        top: -40px;
+        right: -23px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .teams {
+        .team {
+            &__img {
+                flex-wrap: wrap;
+                row-gap: 20px;
+
+                img {
+                    width: calc(100% / 3 - 16px);
+                }
+            }
+        }
+    }
+    .custom-modal .modal-request {
+        width: 300px;
+        height: 400px;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .custom-modal .modal-request h2 {
+        font-size: 15px;
+        line-height: normal;
+        margin-bottom: 10px;
+        padding-top: 0;
+    }
+
+    .home__content h1 {
+        font-size: 15px;
+        text-align: center;
+        line-height: normal;
+
+    }
+
+    .home__content .fz {
+        padding-top: 10px;
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .home__img img {
+        height: 220px;
+    }
+
+    .home__content p {
+        font-size: 10px;
+    }
+
+    .types .type__title {
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .types {
+        padding: 40px 0;
+    }
+
+    .types .type__desc-1 {
+        font-size: 10px;
+    }
+
+    .types .type__desc {
+        font-size: 12px;
+    }
+
+    .types .types__comp .laptop h2 {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .types .types__comp .laptop p {
+        font-size: 8px;
+    }
+
+    .types .types__comp .desk h2 {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .types .types__comp .desk p {
+        font-size: 8px;
+    }
+
+    .carusel__title {
+        font-size: 15px;
+    }
+
+    .carusel__subtitle {
+        font-size: 10px;
+    }
+
+    .carusel .slick-slider__card h3 {
+        font-size: 10px;
+    }
+
+    .carusel .slick-slider__card p {
+        font-size: 10px;
+    }
+
+    .office .nft h1 {
+        line-height: normal;
+        font-size: 15px;
+    }
+
+    .office .nft p {
+        padding: 10px 0;
+        line-height: normal;
+        font-size: 10px;
+    }
+
+    .work__title {
+        font-size: 15px;
+    }
+
+    .office {
+        margin: 60px 0 40px;
+    }
+
+    .work__subtitle {
+        font-size: 10px;
+        padding: 15px 0;
+        line-height: normal;
+    }
+
+    .teams__title {
+        font-size: 15px;
+    }
+
+    .teams__subtitle {
+        font-size: 10px;
+        padding: 10px 0 40px;
+        line-height: normal;
+    }
+
+    .teams {
+        margin-bottom: 30px;
+    }
+
+    .hope__row_title {
+        font-size: 15px;
+    }
+
+    .hope__row_text {
+        font-size: 10px;
+        padding: 10px 0 40px;
+    }
+
+    .hope__row .fon {
+        height: 250px;
+    }
+
+    .footer__text h2 {
+        font-size: 15px;
+    }
+
+    .footer__text p {
+        padding-top: 10px;
+    }
+
+    .footer__text::before {
+        top: 180px;
+    }
+
+    .footer__info ul {
+        row-gap: 5px;
+    }
+
+    .footer__info li {
+        font-size: 19px;
+    }
+
+    .footer__karobka {
+        width: 42px;
+        height: 42px;
+    }
+
+    .footer__karobka span {
+        font-size: 9px;
+        line-height: normal;
+    }
+    .custom-modal .modal-request input {
+        margin-bottom: 20px;
+    }
+    .custom-modal .modal-request__btn {
+        width: 80%;
+    }
+    .custom-modal .modal-request h2  {
+        padding-top: 10px;
+    }
+}
