@@ -65,7 +65,7 @@ submitBtn.addEventListener('click', () => {
   setTimeout( () => {
     closeModal(modalThanks)
     closeModal(modal)
-  }, 50000)
+  }, 5000)
 })
 function closeModal(selector) {
   selector.classList.remove('active')

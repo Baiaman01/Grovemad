@@ -1230,7 +1230,8 @@
     padding-top: 0;
   }
   .home__content h1 {
-    font-size: 15px;
+    font-size: 25px;
+    width: 300px;
     text-align: center;
     line-height: normal;
   }
@@ -1240,23 +1241,24 @@
     line-height: normal;
   }
   .home__img img {
-    height: 220px;
+    height: 180px;
   }
   .home__content p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .types .type__title {
-    font-size: 15px;
+    font-size: 25px;
     line-height: normal;
+    padding-bottom: 10px;
   }
   .types {
-    padding: 40px 0;
+    padding: 20px 0;
   }
   .types .type__desc-1 {
-    font-size: 10px;
+    font-size: 15px;
   }
   .types .type__desc {
-    font-size: 12px;
+    font-size: 15px;
   }
   .types .types__comp .laptop h2 {
     font-size: 15px;
@@ -1273,63 +1275,72 @@
     font-size: 8px;
   }
   .carusel__title {
-    font-size: 15px;
+    font-size: 25px;
   }
   .carusel__subtitle {
     font-size: 10px;
+    padding: 9px 0 60px;
   }
   .carusel .slick-slider__card h3 {
-    font-size: 10px;
+    font-size: 15px;
   }
   .carusel .slick-slider__card p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .office .nft h1 {
     line-height: normal;
-    font-size: 15px;
+    font-size: 25px;
   }
   .office .nft p {
-    padding: 10px 0;
+    padding: 20px 0 0;
     line-height: normal;
+    font-size: 15px;
+    width: 260px;
+  }
+  .office .nft p:nth-child(3) {
     font-size: 10px;
+    padding-top: 15px;
   }
   .work__title {
-    font-size: 15px;
+    font-size: 25px;
   }
   .office {
-    margin: 60px 0 40px;
+    margin: 40px 0 25px;
   }
   .work__subtitle {
-    font-size: 10px;
-    padding: 15px 0;
+    font-size: 15px;
+    padding: 20px 0 40px;
     line-height: normal;
+    text-align: left;
   }
   .teams__title {
-    font-size: 15px;
+    font-size: 25px;
   }
   .teams__subtitle {
-    font-size: 10px;
-    padding: 10px 0 40px;
+    font-size: 15px;
+    padding: 20px 0 50px;
     line-height: normal;
+    text-align: left;
   }
   .teams {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .hope__row_title {
-    font-size: 15px;
+    font-size: 25px;
   }
   .hope__row_text {
-    font-size: 10px;
-    padding: 10px 0 40px;
+    font-size: 12px;
+    padding: 10px 0 20px;
   }
   .hope__row .fon {
     height: 250px;
+    margin-bottom: 35px;
   }
   .footer__text h2 {
-    font-size: 15px;
+    font-size: 25px;
   }
   .footer__text p {
-    padding-top: 10px;
+    padding-top: 15px;
   }
   .footer__text::before {
     top: 180px;
@@ -1355,7 +1366,29 @@
     width: 80%;
   }
   .custom-modal .modal-request h2 {
-    padding-top: 10px;
+    padding-top: 15px;
+  }
+  .office {
+    background: url(../image/office/Rectangle.svg) 40%/cover no-repeat fixed;
+  }
+  .types .types__comp {
+    -webkit-column-gap: 6px;
+            column-gap: 6px;
+  }
+  .types .type__desc {
+    padding-bottom: 25px;
+  }
+  .work {
+    padding-bottom: 40px;
+  }
+  .hope__row .fon p {
+    width: 250px;
+    font-size: 15px;
+  }
+  .hope__row .fon h1 {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=index.css.map */
