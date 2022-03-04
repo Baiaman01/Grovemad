@@ -42,21 +42,25 @@ const requestCloseBtnThanks = document.querySelector('#request-close-btn-thanks'
 const modalRequest = document.querySelector('#modal-request')
 const submitBtn = document.querySelector('#modal-request-submit')
 const modalThanks = document.querySelector('#modal-thanks')
+const body = document.querySelector('body')
 
 requestBtn.addEventListener('click', () => {
   openModal(modal)
   openModal(modalRequest)
+  body.style.overflow = 'hidden'
 }) 
 
 requestCloseBtn.addEventListener('click', () => {
   closeModal(modalRequest)
   closeModal(modal)
+  body.style.overflow = 'auto'
 })
 
 requestCloseBtnThanks.addEventListener('click', () => {
   closeModal(modalRequest)
   closeModal(modal)
   closeModal(modalThanks)
+  body.style.overflow = 'auto'
 }) 
 console.log(submitBtn);
 submitBtn.addEventListener('click', () => {
@@ -65,6 +69,7 @@ submitBtn.addEventListener('click', () => {
   setTimeout( () => {
     closeModal(modalThanks)
     closeModal(modal)
+    body.style.overflow = 'auto'
   }, 5000)
 })
 function closeModal(selector) {
@@ -83,8 +88,10 @@ burger.addEventListener('click', () => {
   header__row.classList.toggle('active')
   burger.classList.toggle('active')
   overlay.classList.toggle('active')
-  body.style.overflow = 'hidden'
+  body.classList.toggle('hidden')
 })
+
+  
 
 let carusel = document.querySelector('#carusel');
 let teams = document.querySelector('#teams');

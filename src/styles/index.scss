@@ -21,6 +21,10 @@
     z-index: 9;
 }
 
+.hidden {
+    overflow: hidden;
+}
+
 @import './header';
 @import './home';
 @import './types';
