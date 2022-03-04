@@ -69,6 +69,11 @@
   color: #000000;
 }
 
+.header__link:hover {
+  -webkit-transform: scale(1rem);
+          transform: scale(1rem);
+}
+
 .header .btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;

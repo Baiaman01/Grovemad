@@ -83,4 +83,10 @@ burger.addEventListener('click', () => {
   header__row.classList.toggle('active')
   burger.classList.toggle('active')
   overlay.classList.toggle('active')
+  body.style.overflow = 'hidden'
 })
+
+let carusel = document.querySelector('#carusel');
+let teams = document.querySelector('#teams');
+
+

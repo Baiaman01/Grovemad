@@ -34,7 +34,13 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #000000;
+
+    &:hover {
+      transform: scale(1rem);
+    }
   }
+
+
 
   .btn {
     font-family: "Roboto", sans-serif;
@@ -87,6 +93,7 @@
         background-color: #111;
         transition: 0.3s ease;
       }
+
       &::after {
         content: '';
         position: absolute;
@@ -102,10 +109,12 @@
     &.active {
       .burger-line {
         background-color: transparent;
+
         &::before {
           transform: rotate(45deg);
           top: 0;
         }
+
         &::after {
           transform: rotate(135deg);
           top: 0;

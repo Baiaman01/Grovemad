@@ -10,15 +10,15 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
       <div class="header__row">
         <ul class="header__menu">
           <li class="header__item">
-            <a href="" class="header__link">SHOP</a>
+            <a href="#carusel" class="header__link">SHOP</a>
           </li>
           <li class="header__item">
-            <a href="" class="header__link">EXPLORE</a>
+            <a href="#teams" class="header__link">EXPLORE</a>
           </li>
         </ul>
         <div class="header__logo">
@@ -68,7 +68,7 @@
         </div>
       </div>
     </section>
-    <section class="carusel">
+    <section class="carusel" id="carusel">
       <div class="container">
         <div class="carusel__text">
           <h1 class="carusel__title">Featured Products</h1>
@@ -162,7 +162,7 @@
         </div>
       </div>
     </section>
-    <section class="teams">
+    <section class="teams" id="teams">
       <div class="container">
         <div class="teams__text">
           <h1 class="teams__title">Make Work Meaningful</h1>
@@ -223,10 +223,12 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__row">
-        <div class="footer__karobka">
-          <span>GO</span>
-          <span>UP</span>
-        </div>
+        <a href="#header">
+          <div class="footer__karobka">
+            <span>GO</span>
+            <span>UP</span>
+          </div>
+        </a>
       </div>
       <div class="class">
         <div class="footer__info">
